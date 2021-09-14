@@ -1,0 +1,15 @@
+.visit-banner {
+   //  min-height: 45vh;
+   height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+       url(assets/imgs/image.jpg) center fixed;
+    background-color: #444;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-family: $text-regular;
+    font-weight: bold;
+ }
+ .visit-wrapper{
+    height: 45vh;
+ }

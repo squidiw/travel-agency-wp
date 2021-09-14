@@ -1,0 +1,86 @@
+.contact-header {
+   .contact-jumbo {
+      min-height: 70vh;
+      background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+         url(assets/imgs/image.jpg) center fixed;
+      color: #efefef;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      font-family: $heading-regular;
+      margin-bottom: 0 !important;
+   }
+}
+
+.content {
+  margin: 2em 0 2em 0;
+  font-family: $text-regular;
+   
+   .contact-wrap {
+      -webkit-box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
+
+      .form h3{
+         color: $primary;
+      }
+
+      h3{
+         font-family: $heading-regular;
+      }
+
+       .col-form-label{
+         font-size: 14px;
+         color: #b3b3b3;
+         margin: 0 0 10px 0;
+         display: inline-block;
+         padding: 0;
+      }
+
+      .form, .contact-info{
+         padding: 40px;
+      }
+
+      .contact-info{
+         color: white;
+         background: #eca025;
+
+         ul li{
+            margin-bottom: 15px;
+            // color: rgba(255, 255, 255, 0.5);
+
+            .wrap-icon{
+               font-size: 20px;
+               color: white;
+               margin: 5px;
+            }
+         }
+      }
+   }
+
+
+   .form-control {
+      border: none;
+      border-bottom: 1px solid #ccc;
+      padding-left: 0;
+      padding-right: 0;
+      border-radius: 0;
+      background: none;
+   }
+
+  
+
+   .btn,.form-control,.custom-select{
+      min-height:45px;
+   }
+
+   .custom-select:active,
+   .custom-select:focus {
+   outline: none;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+   border-color: #000;
+}
+
+   
+}

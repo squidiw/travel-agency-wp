@@ -1,0 +1,56 @@
+.packages-jumbo {
+   min-height: 50vh;
+   margin-bottom: 0 !important;
+   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(assets/imgs/image.jpg) center fixed;
+   color: white;
+}
+
+.tour-package {
+   background: url(assets/imgs/leaves-pattern.png);
+}
+
+.tour-offer {
+   .row {
+      padding: 1.1em;
+
+      > div {
+         padding: 1em;
+      }
+   }
+}
+
+.tour-package__benefits > p{
+   margin-bottom: 5px !important;
+}
+
+.sidebar-container {
+   overflow: hidden;
+   border: 1px solid #e2e2e2;
+   text-align: center;
+   font-family: $text-regular;
+
+   h3 {
+      padding: 10px;
+      background: #5f1616;
+      color: rgb(255, 237, 237);
+      font-weight: bold;
+      font-family: $heading-regular;
+      text-transform: capitalize;
+      text-align: center;
+   }
+
+   h4{
+      font-family: $heading-regular;
+      font-weight: bold;
+      text-transform: capitalize;
+      letter-spacing: 1px;
+   }
+
+   h5 {
+      font-family: $heading-regular;
+      padding-top: 10px;
+      text-transform: capitalize;
+      font-weight: bold;
+   }
+}

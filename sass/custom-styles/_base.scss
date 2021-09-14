@@ -1,0 +1,111 @@
+body {
+   font-family: $text-regular;
+}
+
+$primary: #f0af46;
+$secondary: #5f1616;
+
+//TEXT STYLES
+
+.text-faded {
+   color: #868686;
+   line-height: 25px;
+}
+
+.text-white {
+   color: #fff;
+   line-height: 25px;
+}
+
+.text {
+   line-height: 25px;
+}
+
+.centered {
+   text-align: center;
+   text-transform: capitalize;
+}
+
+.capitalized {
+   text-transform: capitalize;
+}
+
+.bold {
+   font-weight: bold;
+}
+
+.caption-styled {
+   font-weight: bold;
+   font-family: $heading-regular;
+   letter-spacing: 1px;
+}
+
+.underlined {
+   border-bottom: 3px solid $secondary;
+}
+
+// ICONS
+.fa {
+   color: #f0af46;
+   font-size: 0.7rem;
+}
+
+.icon {
+   padding-bottom: 1em;
+}
+
+// OTHER STYLINGS
+
+hr.sidebar-hr-red {
+   width: 15em;
+   border: 1px solid #5f1616;
+}
+
+.rating {
+   background: #f0af46;
+   color: #fff;
+   font-size: 16px;
+   padding: 0px 7px;
+   border-radius: 2px;
+   margin-left: 8px;
+}
+
+.title-line {
+   text-align: center;
+   margin-top: -10px;
+   .tl-1 {
+      width: 80px;
+      height: 2px;
+      display: inline-block;
+      background: $primary;
+   }
+   .tl-2 {
+      display: inline-block;
+      height: 12px;
+      margin: 0 5px;
+      position: relative;
+      width: 12px;
+      border: 1px solid $secondary;
+      border-radius: 50px;
+      top: 5px;
+   }
+   .tl-3 {
+      width: 80px;
+      height: 2px;
+      display: inline-block;
+      background: $primary;
+   }
+}
+
+// CONTAINER SHADOW
+
+.shadow {
+   background-color: #fff;
+   box-shadow: 0px -2px 7px rgb(150, 150, 150);
+}
+
+// JUMBOTRON
+
+.jumbotron {
+   margin-bottom: 0 !important;
+}

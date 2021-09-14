@@ -1,0 +1,70 @@
+.packages-header {
+   .packages-jumbo {
+      min-height: 70vh;
+      background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+         url(assets/imgs/image.jpg) center fixed;
+      color: #efefef;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      font-family: $heading-regular;
+      margin-bottom: 0 !important;
+   }
+}
+
+.packages-list {
+   background-image: url(assets/imgs/leaves-pattern.png);
+
+   .row:last-child {
+      padding-bottom: 6em;
+   }
+   .side-info {
+      h3,
+      h4 {
+         font-weight: bold;
+         text-transform: capitalize;
+      }
+
+      .ticket {
+         ul {
+            background: url(assets/imgs/icons/calendar.png) no-repeat center
+            left;
+         padding-left: 32px;
+            li {
+               list-style-type: none;
+               background: #efefef;
+               color: #000;
+               display: inline-block;
+               padding: 2px 7px;
+               font-weight: bold;
+               text-transform: capitalize;
+
+               &:nth-child(1) {
+                  background-color: pink;
+               }
+            }
+         }
+      }
+
+      .features {
+      
+         ul {
+             padding: 0;
+             margin: 0;
+            li {
+               list-style-type: none;
+               background: #efefef;
+               color: #000;
+               display: inline-block;
+               padding-left: 25px;
+               font-weight: bold;
+               background: url(assets/imgs/icons/check-16.png) no-repeat center
+                  left;
+               text-transform: capitalize;
+            }
+         }
+      }
+   }
+}
+

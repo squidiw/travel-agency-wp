@@ -1,0 +1,177 @@
+/*!
+Theme Name: Travel Template
+Theme URI: http://underscores.me/
+Author: Koranteng Anane
+Author URI: http://portfolio.learnywebdev.com
+Description: A custom Wordpress theme for travel agencies or travel bloggers
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: travel_template
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Travel Template is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic
+	- Normalize
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# plugins
+	- Jetpack infinite scroll
+# Utilities
+	- Accessibility
+	- Alignments
+
+--------------------------------------------------------------*/
+
+// Import variables and mixins.
+// @import "abstracts/abstracts";
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+// @import "generic/normalize";
+
+/* Box sizing
+--------------------------------------------- */
+// @import "generic/box-sizing";
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+// @import "base/base";
+
+/*--------------------------------------------------------------
+# Layouts
+--------------------------------------------------------------*/
+// @import "layouts/content-sidebar"; // Uncomment this line for a sidebar on right side of your content.
+// @import "layouts/sidebar-content"; // Uncomment this line for a sidebar on left side of your content.
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+// @import "components/components";
+
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+
+/* Jetpack infinite scroll
+--------------------------------------------- */
+// @import "plugins/jetpack/infinite-scroll";
+
+/*--------------------------------------------------------------
+# Utilities
+--------------------------------------------------------------*/
+
+/* Accessibility
+--------------------------------------------- */
+// @import "utilities/accessibility";
+
+/* Alignments
+--------------------------------------------- */
+// @import "utilities/alignments";
+html{
+	scroll-behavior: smooth;
+
+}
+
+
+//EDITED TESTIMONIALS COLOR. ADDED LINKS TO SIDEBARS IN PACKAGE DETAILS
+
+@import './custom-styles/fonts';
+@import './custom-styles/base';
+@import './custom-styles/travel-tips';
+@import './custom-styles/book-now';
+@import './custom-styles/testimonial';
+@import './custom-styles/visit-now';
+@import './custom-styles/why-choose';
+@import './custom-styles/index';
+@import './custom-styles/packages';
+@import './custom-styles/package-details';
+@import './custom-styles/gallery';
+@import './custom-styles/contact-form';
+@import './custom-styles/footer';
+@import './custom-styles/responsive';
+
+$primary: #f0af46;
+$secondary: #5f1616;
+
+$theme-colors:(
+	'primary': #f0af46,
+	'secondary': #5f1616
+);
+
+.btn-primary{
+	color: whitesmoke !important;
+	text-transform: capitalize;
+	font-family: $text-regular;
+	letter-spacing: 1px;
+	transition: 0.5s !important;
+	position: relative;
+	border-radius: 12px !important;
+
+
+	&:hover{
+		color: $secondary !important;
+		background-color: whitesmoke !important;
+		border: 1px solid $secondary !important;
+		border-radius: 20px !important;
+	}
+}
+
+.btn-secondary{
+	color: whitesmoke !important;
+	text-transform: capitalize;
+	font-family: $text-regular;
+	letter-spacing: 1px;
+	transition: 0.5s !important;
+	position: relative;
+	border-radius: 12px !important;
+
+
+	&:hover{
+		color: black !important;
+		background-color: whitesmoke !important;
+		border: 1px solid $secondary !important;
+		
+	}
+}
+
+
+
+@import './bootstrap_scss/functions';
+@import './bootstrap_scss/variables';
+@import './bootstrap_scss/mixins';
+@import './bootstrap_scss/root';
+@import './bootstrap_scss/buttons';
+@import './bootstrap_scss/reboot';

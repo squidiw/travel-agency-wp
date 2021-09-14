@@ -1,0 +1,122 @@
+.gallery-wrapper {
+	height: 100%;
+	min-height: 100%;
+	overflow: hidden;
+  }
+  
+
+
+.full-screen-portfolio .container-fluid,
+ .full-screen-portfolio .col-md-4, .col-md-8 {
+   padding-left: 0px;
+   padding-right: 0px;
+ }
+ 
+ 
+ .portfolio-item img {
+   width: 100%;
+   overflow: hidden;
+ }
+ 
+ .portfolio-item .thumb {
+   position: relative;
+ }
+ 
+ 
+ .portfolio-item .hover-effect .hover-content {
+     position: absolute;
+     text-align: left;
+     width: 100%;
+     bottom: 0;
+     left: 0;
+ }
+ 
+ 
+ .full-screen-portfolio .portfolio-item h1 {
+   position: relative;
+   font-size: 22px;
+   text-transform: uppercase;
+   color: #fff;
+   display: inline-block;
+   padding-left: 20px;
+   line-height: 15px;
+   transform: translateY(25px);
+   transition: .5s ease-in-out;
+   letter-spacing: 0.5px;
+  }
+ 
+ 
+ .full-screen-portfolio .portfolio-item:hover h1 {
+   transform: translateY(0);
+  }
+ 
+//  .full-screen-portfolio .portfolio-item p {
+//    padding-left: 20px;
+//    font-weight: 300!important;
+//    letter-spacing: 0.5px;
+//    font-size: 14px;
+//    color: #fff;
+//    opacity: 0;
+//    transform: translateY(10px);
+//    transition: .5s ease-in-out;
+//    text-transform: uppercase;
+//   }
+ 
+  .full-screen-portfolio .portfolio-item {
+  text-align: center;
+  line-height: 150%;
+  text-transform: lowercase;
+  cursor: pointer;
+ }
+ 
+ .full-screen-portfolio .portfolio-item:hover p {
+   opacity: 1;
+   transform: translateY(0);
+  }
+ 
+
+ @media (max-width: 530px) {
+ 
+  
+   .grid-portfolio {
+     padding: 0px 0px;
+   }
+ 
+   .grid-portfolio .portfolio-item {
+     margin: 30px 0px;
+   }
+ 
+   .grid-portfolio .load-more-button {
+     padding-bottom: 30px;
+   }
+ 
+ 
+ }
+ 
+ .instagram-redirect{
+   background-color: $primary;
+   color: white;
+   font-family: $text-regular;
+   text-align: center;
+
+   &__wrapper{
+     min-height: 8vh;
+   }
+   
+ }
+
+
+ .back-to-packages{
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(assets/imgs/image.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: $text-regular;
+
+    h2{
+      font-family: $heading-regular;
+      color: #fff;
+    }
+ }
